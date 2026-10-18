@@ -1,0 +1,42 @@
+VolticPlayer — Play everything, beautifully.
+
+VolticPlayer is a modern media player for Android that brings your videos and music together in one clean app. Browse local folders, stream network media, organize playlists, and enjoy smooth playback with subtitles, equalizer, and picture-in-picture.
+
+WHY VOLTICPLAYER
+• Fast, fluid video and audio playback
+• Clean library for videos, music, folders, and playlists
+• Online search and tools to find public media you have rights to use
+• Download manager for supported public HTTPS media links
+• Equalizer, audio effects, subtitles, and gesture controls
+• Background audio and lock-screen media controls
+• Favorites, history, bookmarks, and smart playlists
+
+MAIN FEATURES
+Video player
+Watch local and supported online videos with playback speed control, subtitles, gestures, video filters, and fullscreen or PiP modes.
+
+Music player
+Listen to your audio library with queue, equalizer, audio effects, and background playback notifications.
+
+Library & organization
+Browse folders, create playlists, use smart playlists, save favorites and bookmarks, and jump back into your history.
+
+Downloads & online tools
+Search and analyze supported public media URLs, choose available formats when the source provides them, and manage downloads in one place. Only download content you have permission to save and use.
+
+Network & IPTV
+Open network streams and IPTV sources when available on your network or from a URL you provide.
+
+WHO IT IS FOR
+Students, creators, families, and anyone who wants a reliable all-in-one player for personal media libraries and authorized online media.
+
+PRIVACY & TRUST
+VolticPlayer is built for everyday use. Review our Privacy Policy and Terms on volticplayer.app before installing. Permissions are used only for media access, notifications, and networking features you choose to use.
+
+GET STARTED
+Install VolticPlayer, grant media access, and start playing your videos and music today.
+
+Support: support@volticplayer.app
+Website: https://volticplayer.app
+Privacy: https://volticplayer.app/privacy
+Terms: https://volticplayer.app/terms

@@ -1,0 +1,181 @@
+name: voltic_player
+description: "VolticPlayer — a modern cross-platform Flutter media player (Android, iPhone, iPad)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # =========================
+  # MEDIA PLAYER
+  # =========================
+  media_kit: ^1.2.6
+  media_kit_video: ^2.0.1
+  media_kit_libs_video: ^1.0.7
+  webview_flutter: ^4.14.1
+
+  # Audio
+  just_audio: ^0.10.5
+  audio_service: ^0.18.18
+  audio_session: ^0.2.2
+  just_audio_background: ^0.0.1-beta.17
+
+  # Database
+  drift: ^2.28.0
+  drift_flutter: ^0.2.7
+  sqlite3_flutter_libs: ^0.5.0
+
+  # State Management
+  flutter_riverpod: ^3.0.3
+  riverpod_annotation: ^3.0.3
+
+  # Files & Permissions
+  permission_handler: ^12.0.1
+  file_picker: ^10.3.2
+  photo_manager: ^3.7.1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  mime: ^2.0.0
+
+  # Subtitles
+  subtitle: ^0.1.0
+  xml: ^6.6.1
+
+  # Thumbnails
+  video_thumbnail:
+    path: third_party/video_thumbnail
+  flutter_cache_manager: ^3.4.1
+  cached_network_image: ^3.4.1
+  # Local compatibility patch: upstream 2.2.2's Android Gradle script
+  # requires AGP 9 / Kotlin 2.3 while this app uses AGP 8.11 / Kotlin 2.2.
+  media_metadata:
+    path: third_party/media_metadata
+
+  # PiP & Gestures
+  simple_pip_mode: ^1.0.0
+  screen_brightness: ^2.1.7
+  volume_controller: ^3.4.0
+  wakelock_plus: ^1.4.0
+  sensors_plus: ^6.1.2
+
+  # Network
+  dio: ^5.9.0
+  http: ^1.5.0
+  connectivity_plus: ^7.0.0
+  network_info_plus: ^6.1.4
+  flutter_downloader: ^1.12.0
+
+  # UI
+  flutter_screenutil: ^5.9.3
+  animations: ^2.0.11
+  flutter_svg: ^2.2.0
+  lottie: ^3.3.2
+  shimmer: ^3.0.0
+  palette_generator: ^0.3.3+7
+  flex_color_scheme: ^8.3.0
+
+  # Routing
+  go_router: ^14.8.0
+
+  # Persistence for settings
+  shared_preferences: ^2.5.0
+  sqflite: ^2.4.2+1
+
+  # Native splash screen
+  flutter_native_splash: ^2.4.3
+
+  # Localization
+  easy_localization: ^3.0.8
+  intl: ^0.20.2
+
+  # Utilities
+  share_plus: ^12.0.0
+  url_launcher: ^6.3.2
+  package_info_plus: ^9.0.0
+  device_info_plus: ^12.2.0
+  logger: ^2.6.1
+  uuid: ^4.5.1
+  crypto: ^3.0.6
+  collection: ^1.19.1
+
+  # Utilities
+  equatable: ^2.1.0
+  google_mobile_ads: 6.0.0
+  google_sign_in: ^7.2.0
+  flutter_dotenv: ^6.0.1
+  in_app_review: ^2.0.12
+  youtube_explode_dart: ^3.1.0
+  webview_flutter_android: ^4.12.0
+  webview_flutter_wkwebview: ^3.25.1
+  genkit: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.7.0
+  drift_dev: ^2.28.0
+  riverpod_generator: ^3.0.3
+  freezed: ^3.2.3
+  json_serializable: ^6.11.1
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  path_provider_platform_interface: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
+
+# ─── App Launcher Icons ──────────────────────────────────────────────────
+# Run: dart run flutter_launcher_icons
+# Black & white identity: black mark on a plain white background everywhere.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/launcher_icon_bw.png"
+  image_path_ios: "assets/logo/launcher_icon_bw.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo/logo_mark_black.png"
+  adaptive_icon_foreground_inset: 12
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  windows:
+    generate: true
+    image_path: "assets/logo/launcher_icon_bw.png"
+    icon_size: 48
+  web:
+    generate: true
+    image_path: "assets/logo/launcher_icon_bw.png"
+    image_size: 512
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+
+# ─── Native Splash Screen ────────────────────────────────────────────────
+# Run: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#070709"
+  image: assets/logo/logo_mark_black.png
+  image_dark: assets/logo/logo_mark_white.png
+  # Android
+  android: true
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#070709"
+    image: assets/logo/logo_mark_black.png
+    image_dark: assets/logo/logo_mark_white.png
+  # iOS
+  ios: true
+  # Web (optional)
+  web: false
+  # Full screen on Android
+  fullscreen: true

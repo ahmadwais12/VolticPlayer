@@ -1,0 +1,47 @@
+SCREENSHOT STRATEGY (phone, 1080x1920 or store-required sizes)
+
+1) Hero — Play Everything
+Purpose: Main value proposition
+Headline: Play video & music beautifully
+Supporting: One player for local files and online media
+UI: Home or library with media cards
+Benefit: All-in-one media experience
+
+2) Video player
+Purpose: Strongest feature
+Headline: Smooth video playback
+Supporting: Subtitles, speed, gestures, fullscreen
+UI: Watch page / video player
+Benefit: Comfortable watching
+
+3) Music & audio
+Purpose: Second feature
+Headline: Music with equalizer
+Supporting: Background play, queue, audio effects
+UI: Music tab or equalizer
+Benefit: Better listening
+
+4) Library & playlists
+Purpose: User benefit
+Headline: Organize your library
+Supporting: Folders, playlists, favorites, history
+UI: Playlists or folders screen
+Benefit: Find content fast
+
+5) Downloads & online tools
+Purpose: Trust + capability
+Headline: Download supported public media
+Supporting: Choose formats you are allowed to save
+UI: Online search / download manager
+Benefit: Offline access for authorized content
+
+6) More / settings hub
+Purpose: Secondary features
+Headline: Tuned for you
+Supporting: Gestures, subtitles, IPTV, network streams
+UI: More screen
+Benefit: Control and discovery
+
+ORDER: 1 → 2 → 3 → 4 → 5 → 6
+Keep text short. No paragraphs on screenshots.
+Feature graphic (Google Play 1024x500): Brand + tagline “Play Everything, Beautifully.” + device mockup of player.

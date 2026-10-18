@@ -1,0 +1,1 @@
+Play local videos and music with playlists, equalizer, subtitles, PiP, and tools for supported public media downloads.

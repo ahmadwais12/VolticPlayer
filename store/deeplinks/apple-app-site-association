@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["TEAMID.com.volticplayer.app"],
+        "paths": ["*", "/privacy", "/terms", "/video-downloader"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["TEAMID.com.volticplayer.app"]
+  }
+}

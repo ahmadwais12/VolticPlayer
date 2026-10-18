@@ -1,0 +1,10 @@
+Welcome to VolticPlayer 1.0
+
+• Smooth video and music playback
+• Library with folders, playlists, favorites, and history
+• Equalizer, audio effects, and subtitle controls
+• Online search and download tools for supported public media
+• Network streams and IPTV support
+• Clean More hub for settings and tools
+
+Thank you for trying VolticPlayer. Send feedback to support@volticplayer.app.

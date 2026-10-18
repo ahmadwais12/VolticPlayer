@@ -1,0 +1,36 @@
+VOLTICPLAYER — PUBLISH CHECKLIST
+
+1. Host website files (required for store privacy URLs)
+   Deploy the web/ folder (or at least these paths) to https://volticplayer.app :
+   - /  (index.html)
+   - /privacy/
+   - /terms/
+   - /faq/
+   - /video-downloader/
+   - /sitemap.xml
+   - /robots.txt
+   - /.well-known/assetlinks.json   (replace SHA-256 fingerprint)
+   - /.well-known/apple-app-site-association  (replace TEAMID)
+
+2. Google Play Console
+   - Paste store/google_play/title.txt, short_description.txt, full_description.txt
+   - Category: Video Players & Editors
+   - Upload screenshots using store/visuals/screenshot_strategy.txt
+   - Feature graphic 1024x500
+   - Data Safety: declare media files (on device), optional Google Sign-In, AdMob if used
+   - Replace AdMob TEST ids with production ids
+   - Create release keystore and sign AAB
+   - Update assetlinks.json with release SHA-256
+
+3. App Store Connect
+   - Paste store/app_store name, subtitle, keywords, description, promotional_text, whats_new
+   - Categories: Photo & Video + Music
+   - Privacy Nutrition Labels matching Privacy Policy
+   - Replace TEAMID in apple-app-site-association
+   - After app is created, put real App Store ID into AppConstants.appStoreUrl and ReviewService.openStoreListing
+
+4. Before submit
+   - flutter build appbundle (Android) / archive in Xcode (iOS)
+   - Do NOT ship AdMob test IDs
+   - Test privacy and terms URLs open in browser
+   - Verify package/bundle: com.volticplayer.app on both platforms

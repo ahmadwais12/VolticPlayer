@@ -1,0 +1,22 @@
+EN (base)
+Name: VolticPlayer
+Subtitle: Video & Music Player
+Keywords: video player,music player,media player,playlist,equalizer,subtitles,pip,stream,offline,mp3,mp4,folder
+
+FA / Persian (fa) — useful for Afghanistan/Iran audiences
+Name: VolticPlayer
+Subtitle: پخش ویدیو و موسیقی
+Short: پخش ویدیو و موسیقی محلی و آنلاین با پلی‌لیست، اکولایزر و زیرنویس
+Keywords: پخش کننده ویدیو,پخش موسیقی,مدیا پلیر,پلی لیست,اکولایزر,زیرنویس,فیلم,آهنگ
+
+PS / Pashto note: ARB exists (app_ps.arb) but store locale support varies; prioritize EN + FA first.
+
+AR (ar)
+Name: VolticPlayer
+Subtitle: مشغل فيديو وموسيقى
+Short: شغّل الفيديو والموسيقى مع قوائم التشغيل والمعادل والترجمات
+Keywords: مشغل فيديو,مشغل موسيقى,قائمة تشغيل,معادل الصوت,ترجمات,افلام,اغاني
+
+Dari: treat as Persian (fa) listing adaptation; do not invent a separate fake store locale code.
+
+Only ship a locale when you can maintain accurate screenshots and support replies in that language.

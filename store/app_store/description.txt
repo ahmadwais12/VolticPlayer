@@ -1,0 +1,17 @@
+VolticPlayer helps you play local and online video and music in one modern app.
+
+Enjoy smooth playback with playlists, equalizer, subtitles, picture-in-picture, background audio, favorites, history, and tools for supported public media downloads.
+
+Features
+• Video and music player
+• Folders, playlists, and smart playlists
+• Equalizer and audio effects
+• Subtitles and gesture controls
+• Online search and download manager for authorized public media
+• Network streams and IPTV
+
+Only download content you have permission to save and use.
+
+Privacy: https://volticplayer.app/privacy
+Terms: https://volticplayer.app/terms
+Support: support@volticplayer.app
